@@ -13,6 +13,7 @@ describe('Apply Aadhar Button Test', () => {
       cy.get('body > main > header > div > div.landing-container > div.flex.flex-col.items-center.justify-center.gap-2.mx-auto.mt-4 > div.flex.flex-col.sm\\:flex-row.justify-center.text-\\[0\\.75rem\\].items-center.my-1.sm\\:mt-4.gap-2.sm\\:text-\\[1rem\\] > ul > li:nth-child(1)')
         .click();
   
+        
       cy.get('#content > main > div.my-2 > div:nth-child(1) > div > p.text-slate-500.dark\\:text-gray-100.ellipsis-2').should('be.visible');
       cy.wait(3000);
     });
@@ -93,5 +94,3 @@ describe('Apply Aadhar Button Test', () => {
       cy.wait(3000); 
     });
   });
-
-  describe

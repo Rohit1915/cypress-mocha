@@ -15,8 +15,8 @@ describe('Apply Aadhar Button Test', () => {
       cy.get('body > main > header > div > div.landing-container > div.flex.flex-col.items-center.justify-center.gap-2.mx-auto.mt-4 > div.flex.flex-col.sm\\:flex-row.justify-center.text-\\[0\\.75rem\\].items-center.my-1.sm\\:mt-4.gap-2.sm\\:text-\\[1rem\\] > ul > li:nth-child(1)')
         .click();
   
-      cy.get('#content > main > div.my-2 > div:nth-child(1) > div > p.text-slate-500.dark\\:text-gray-100.ellipsis-2').should('be.visible');
-      cy.wait(2000);
+      cy.get('#content > main > div.my-2 > div:nth-child(2) > div > div.flex.items-center.gap-4.flex-wrap.md\\:mb-2').should('be.visible');
+      cy.wait(5000);
     });
   });
   
@@ -35,7 +35,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#main-bread-crumb').should('be.visible');
-      cy.wait(2000);
+      cy.wait(5000);
     });
   });
   
@@ -54,7 +54,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#content > main > div.flex.flex-wrap.items-center.justify-between > div').should('be.visible');
-      cy.wait(2000); 
+      cy.wait(5000); 
     });
   });
   
@@ -73,7 +73,7 @@ describe('Apply Aadhar Button Test', () => {
     .click();
   
       cy.get('#content > main > div.my-2 > div:nth-child(1) > div').should('be.visible');
-      cy.wait(2000); 
+      cy.wait(5000); 
     });
   });
   
@@ -92,7 +92,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#content > main > div.my-2 > div:nth-child(1) > div > div.flex.items-center.gap-4.flex-wrap.md\\:mb-2 > div').should('be.visible');
-      cy.wait(2000); 
+      cy.wait(5000); 
     });
   });
 
@@ -112,7 +112,7 @@ describe('Apply Aadhar Button Test', () => {
   .click();
   
   cy.get('#content > main > div.flex.flex-col.divide-y > div:nth-child(2) > div').should('be.visible');
-      cy.wait(2000);
+      cy.wait(5000);
     });
   });
   
@@ -131,7 +131,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#content > main > div.border-\\[1px\\].border-\\[\\#D3D3D3\\].my-4').should('be.visible');
-      cy.wait(2000);
+      cy.wait(5000);
     });
   });
   
@@ -150,7 +150,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#content > main > p').should('be.visible');
-      cy.wait(2000); 
+      cy.wait(5000); 
     });
   });
 
@@ -168,7 +168,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#content > div.flex.flex-wrap.md\\:justify-center.justify-start.relative.gap-3 > h1').should('be.visible');
-      cy.wait(2000); 
+      cy.wait(5000); 
     });
   });
 
@@ -188,7 +188,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#Information > div > p').should('be.visible');
-      cy.wait(2000);
+      cy.wait(5000);
     });
   });
   
@@ -207,7 +207,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#Information > div > h1').should('be.visible');
-      cy.wait(2000);
+      cy.wait(5000);
     });
   });
   
@@ -226,7 +226,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#Information');
-      cy.wait(2000); 
+      cy.wait(5000); 
     });
   });
   
@@ -245,7 +245,7 @@ describe('Apply Aadhar Button Test', () => {
     .click();
   
       cy.get('#Information').should('be.visible');
-      cy.wait(2000); 
+      cy.wait(5000); 
     });
   });
   
@@ -264,7 +264,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#Information').should('be.visible');
-      cy.wait(2000); 
+      cy.wait(5000); 
     });
   });
 
@@ -282,7 +282,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#Ministry > div.flex.flex-col.gap-8.items-center.section-padding > div > ul > li:nth-child(2)').should('be.visible');
-      cy.wait(2000); 
+      cy.wait(5000); 
     });
   });
 
@@ -394,7 +394,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#content > main > div.flex.flex-col.lg\\:flex-row.justify-between.items-start.lg\\:items-center.dark\\:text-white.mb-3').should('be.visible');
-      cy.wait(2000);
+      cy.wait(5000);
     });
   });
 
@@ -412,7 +412,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#content > main > div.flex.flex-col.lg\\:flex-row.justify-between.items-start.lg\\:items-center.dark\\:text-white.mb-3').should('be.visible');
-      cy.wait(2000);
+      cy.wait(5000);
     });
   });
 
@@ -430,7 +430,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#content > main > div.flex.flex-col.lg\\:flex-row.justify-between.items-start.lg\\:items-center.dark\\:text-white.mb-3').should('be.visible');
-      cy.wait(2000);
+      cy.wait(5000);
     });
   });
 
@@ -448,6 +448,6 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#content > main > div > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(1) > h1').should('be.visible');
-      cy.wait(2000);
+      cy.wait(5000);
     });
   });
