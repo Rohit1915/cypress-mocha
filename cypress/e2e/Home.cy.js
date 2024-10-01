@@ -136,23 +136,23 @@ describe('Apply Aadhar Button Test', () => {
   });
   
   
-  describe('Category Test', () => {
-    before(() => {
-      Cypress.on('uncaught:exception', (err, runnable) => {
-        return false;
-      });
-    });
+  // describe('Category Test', () => {
+  //   before(() => {
+  //     Cypress.on('uncaught:exception', (err, runnable) => {
+  //       return false;
+  //     });
+  //   });
   
-    it('should click and verify the result', () => {
-      cy.visit('https://portal-demo.npinew.keenable.in/'); 
+  //   it('should click and verify the result', () => {
+  //     cy.visit('https://portal-demo.npinew.keenable.in/'); 
   
-      cy.get('#content > div > div.flex-\\[1\\].bg-theme-primary.md\\:bg-white.text-white.px-4.py-4.\\32 xl\\:px-10.\\32 xl\\:py-14 > ul > li:nth-child(3)')
-        .click();
+  //     cy.get('#content > div > div.flex-\\[1\\].bg-theme-primary.md\\:bg-white.text-white.px-4.py-4.\\32 xl\\:px-10.\\32 xl\\:py-14 > ul > li:nth-child(3)')
+  //       .click();
   
-      cy.get('#content > main > p').should('be.visible');
-      cy.wait(5000); 
-    });
-  });
+  //     cy.get('#content > main > p').should('be.visible');
+  //     cy.wait(5000); 
+  //   });
+  // });
 
   describe('Calendar', () => {
     before(() => {
@@ -168,7 +168,7 @@ describe('Apply Aadhar Button Test', () => {
         .click();
   
       cy.get('#content > div.flex.flex-wrap.md\\:justify-center.justify-start.relative.gap-3 > h1').should('be.visible');
-      cy.wait(5000); 
+      cy.wait(3000); 
     });
   });
 

@@ -8,12 +8,12 @@ module.exports = defineConfig({
     
     baseUrl: 'https://portal-demo.npinew.keenable.in/', 
   },
-  reporter: 'cypress-mochawesome-reporter', 
+  reporter: 'mochawesome',
   reporterOptions: {
-    reportDir: 'cypress/reports', 
-    overwrite: false, 
-    html: false, 
-    json: true, 
-    screenshots: true, 
+    reportDir: 'cypress/reports',
+    overwrite: false,
+    html: false,
+    json: true,
+    reportFilename: 'merged-report'
   },
 });
